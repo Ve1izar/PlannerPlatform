@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Backend secrets and local state
+backend/credentials.json
+backend/.env
+backend/.env.*
+backend/tokens/
+backend/.idea/
+
+# Frontend secrets and local state
+frontend/.env
+frontend/.env.*
+frontend/.expo/
+frontend/.expo-shared/
+frontend/node_modules/
+frontend/app-example/
+
+# General secrets and environment files
+.env
+.env.*
+.env.local
+credentials.json
+secrets.json
+tokens/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Node / Expo / React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.expo/
+.expo-shared/
+.expo/web-build/
+web-build/
+dist/
+metro-cache/
+.cache/
+*.tsbuildinfo
+
+# Native build outputs
+android/
+ios/
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+*.mobileprovision
+.kotlin/
+.gradle/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.swp
+*.sublime-workspace

@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+alembic
+python-dotenv
+pydantic
+pydantic-settings
+scikit-learn
+pandas
+pyjwt
+passlib[bcrypt]
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
